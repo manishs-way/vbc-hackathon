@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+.header img {
+    height: 40px;
+}
+.header .steps {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+}
+.header .steps span {
+    margin: 0 10px;
+}
+.header .steps .active {
+    color: #20b2aa;
+}
+.header .secure {
+    display: flex;
+    align-items: center;
+    color: #20b2aa;
+}
+.header .secure i {
+    margin-right: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.address-section {
+    width: 65%;
+}
+.address-section h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.address-box {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.address-box .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.address-box .header h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.address-box .header .badge {
+    background-color: #20b2aa;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.address-box p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.address-box .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.address-box .actions button {
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.address-box .actions button:hover {
+    background-color: #f5f5f5;
+}
+.add-new-address {
+    color: #ff3f6c;
+    font-size: 14px;
+    cursor: pointer;
+}
+.summary-section {
+    width: 30%;
+}
+.summary-section .delivery-estimates,
+.summary-section .price-details {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.summary-section .delivery-estimates img {
+    width: 100%;
+    border-radius: 5px;
+}
+.summary-section .price-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.summary-section .price-details p span {
+    font-weight: 500;
+}
+.summary-section .price-details p .discount {
+    color: #ff3f6c;
+}
+.summary-section .price-details p .free {
+    color: #20b2aa;
+}
+.summary-section .total-amount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.summary-section .continue-btn {
+    background-color: #ff3f6c;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.summary-section .continue-btn:hover {
+    background-color: #e33e5a;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #eaeaea;
+    font-size: 14px;
+    color: #999;
+}
+.footer img {
+    height: 30px;
+    margin: 0 10px;
+}

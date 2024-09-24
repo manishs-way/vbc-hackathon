@@ -1,0 +1,241 @@
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .header img {
+            width: 50px;
+        }
+        .header .steps {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #999;
+        }
+        .header .steps span {
+            margin: 0 10px;
+        }
+        .header .steps .active {
+            color: #20bd99;
+            font-weight: 500;
+        }
+        .header .secure {
+            display: flex;
+            align-items: center;
+            color: #20bd99;
+            font-size: 14px;
+        }
+        .header .secure i {
+            margin-right: 5px;
+        }
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-section {
+            width: 65%;
+        }
+        .right-section {
+            width: 30%;
+        }
+        .delivery-check {
+            background-color: #fff7f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .delivery-check button {
+            background-color: #ff3f6c;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .offers {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #eaeaec;
+        }
+        .offers p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .offers .show-more {
+            color: #ff3f6c;
+            cursor: pointer;
+        }
+        .items-selected {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .items-selected i {
+            color: #ff3f6c;
+            margin-right: 10px;
+        }
+        .items-selected span {
+            font-weight: 500;
+        }
+        .item-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eaeaec;
+            margin-bottom: 20px;
+        }
+        .item-card img {
+            width: 80px;
+            border-radius: 5px;
+        }
+        .item-details {
+            width: 60%;
+        }
+        .item-details h4 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .item-details p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #999;
+        }
+        .item-details .price {
+            font-size: 16px;
+            font-weight: 500;
+            color: #333;
+        }
+        .item-details .discount {
+            font-size: 14px;
+            color: #ff3f6c;
+            margin-left: 10px;
+        }
+        .item-actions {
+            display: flex;
+            align-items: center;
+        }
+        .item-actions button {
+            background-color: #fff;
+            border: none;
+            color: #ff3f6c;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .login-prompt {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eaeaec;
+            text-align: center;
+        }
+        .login-prompt img {
+            width: 50px;
+            margin-bottom: 10px;
+        }
+        .login-prompt p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .login-prompt a {
+            color: #ff3f6c;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .coupons {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eaeaec;
+            margin-bottom: 20px;
+        }
+        .coupons p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .coupons button {
+            background-color: #fff;
+            border: 1px solid #ff3f6c;
+            color: #ff3f6c;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .donate {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eaeaec;
+            margin-bottom: 20px;
+        }
+        .donate p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+        }
+        .donate .amounts {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .donate .amounts button {
+            background-color: #fff;
+            border: 1px solid #eaeaec;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .price-details {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eaeaec;
+            margin-bottom: 20px;
+        }
+        .price-details p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+        }
+        .price-details .total {
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .place-order {
+            background-color: #ff3f6c;
+            color: #fff;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 500;
+        }

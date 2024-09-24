@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+.container {
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #00bcd4;
+}
+.sidebar .profile h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+.sidebar .profile p {
+    font-size: 14px;
+    color: #95a5a6;
+}
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .menu li {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar .menu li i {
+    margin-right: 10px;
+}
+.sidebar .menu li.active {
+    background-color: #00bcd4;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main-content .header input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.main-content .header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.main-content .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.main-content .tabs div {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-content .tabs .active {
+    border-bottom: 2px solid #00bcd4;
+}
+.main-content .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.main-content .card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.main-content .card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.main-content .card p {
+    font-size: 14px;
+    color: #95a5a6;
+}
+.main-content .card .circle {
+    width: 200px;
+    height: 200px;
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.main-content .card .bar {
+    height: 10px;
+    background-color: #00bcd4;
+    margin: 10px 0;
+}
+.main-content .card .bar-container {
+    background-color: #ecf0f1;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.main-content .card .chart {
+    height: 100px;
+    background-color: #ecf0f1;
+}
